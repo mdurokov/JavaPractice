@@ -8,6 +8,8 @@ public class ReverseIt {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter new string:");
 		str = input.next();
+		input.close();
 		System.out.println(new StringBuilder(str).reverse().toString());
+		
 	}
 }

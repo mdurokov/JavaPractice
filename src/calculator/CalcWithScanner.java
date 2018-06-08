@@ -11,9 +11,9 @@ public class CalcWithScanner {
 		i = input.nextInt();
 		System.out.println("Enter second number");
 		j = input.nextInt();
-		Scanner op = new Scanner(System.in);
 		System.out.println("Enter operation");
-		operation = op.next();
+		operation = input.next();
+		input.close();
 		switch (operation) {
 		case "+":
 			System.out.println("Your result is: " + (i+j));

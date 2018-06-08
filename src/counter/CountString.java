@@ -7,6 +7,7 @@ public class CountString {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter a string:");
 		String input = in.nextLine();
+		in.close();
 		count(input);
 	}
 	
